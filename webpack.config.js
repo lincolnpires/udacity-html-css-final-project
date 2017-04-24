@@ -50,7 +50,7 @@ var config = {
 
   devServer: {
     contentBase: Path.join(__dirname, 'dist'),
-    compree: true,
+    compress: true,
     port: 5000,
     stats: 'errors-only',
     open: false

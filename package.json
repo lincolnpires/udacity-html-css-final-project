@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Udacity html css final project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf ./dist",
+    "dev": "webpack-dev-server",
+    "prod": "npm run clean && webpack -p",
+    "start": "npm run dev"
   },
   "author": "Lincoln Pires <me@lincolnpires.com>",
   "license": "MIT",
