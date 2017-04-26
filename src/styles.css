@@ -45,9 +45,9 @@ footer {
     width: 62em;
   }
 }
-@media screen and  (min-width: 75em) {
+@media screen and  (min-width: 80em) {
   .content {
-    width: 72em;
+    width: 77em;
   }
 }
 
