@@ -1,5 +1,99 @@
+body {
+  color: #747704;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 2em 0;
+  margin: 2em 0 0;
+}
+
 .content {
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 1em;
-  max-width: 1200px;
+}
+
+@media screen and (min-width: 35.5em) {
+  .content{
+    width: 34em;
+  }
+}
+@media screen and  (min-width: 48em) {
+  .content {
+    width: 47em;
+  }
+}
+@media screen and  (min-width: 64em) {
+  .content {
+    width: 62em;
+  }
+}
+@media screen and  (min-width: 75em) {
+  .content {
+    width: 72em;
+  }
+}
+
+.pure-g .col-with-padding {
+  box-sizing: border-box;
+  padding: 0.1em 1em 0.4em;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.logo {
+  max-height: 122px;
+}
+
+.feature-head {
+  color: #bcbbbb;
+  font-weight: 200;
+  margin-bottom: 0.2em;
+}
+
+.head-text {
+  text-transform: uppercase;
+}
+
+  .head-text h1, .head-text h3 {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+  }
+
+.head-name {
+  font-weight: 100;
+}
+
+.head-title {
+  font-weight: 200;
+}
+
+.portifolio-head {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
 }
